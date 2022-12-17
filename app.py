@@ -125,4 +125,5 @@ def predict():
     print(output)
 
     return jsonify({'output': output})
-app.run()
+if __name__ =='__main__':  
+    app.run()
