@@ -125,4 +125,4 @@ def predict():
     print(output)
 
     return jsonify({'output': output})
-app.run(debug=True)
+app.run()
